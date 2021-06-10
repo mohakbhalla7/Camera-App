@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay style="transform: scale(1);" <!--controls--> </video>></video>   <!--Yaha humne video tag ko autoplay aur pause play ke controls de rakhen hai aur scale humne zoom ke liye daala hai--> 
+    </div>
+
+    <div class="filter-container">
+        <div class="filter" style="background-color: #ff6b6b5d"></div>
+        <div class="filter" style="background-color: #fbef483a"></div>
+        <div class="filter" style="background-color: #d49fff7c"></div>
+        <div class="filter" style="background-color: #8873ff65"></div>
+        <div class="filter" style="background-color: #ffb0423a"></div>
+        <div class="filter"></div>
+    </div>
+
+    <div class="zoom-in-out-container"> 
+        <div class="material-icons zoom-in">zoom_in</div>
+        <div class="material-icons zoom-out">zoom_out</div>
+    </div>
+
+    <div class="gallery">
+        <button class="material-icons gallery-btn">collections</button>
+    </div>
+    
+    <button id="record">
+        <div></div>
+    </button>
+    <button id="capture">
+        <div></div>
+    </button>
+
+    <script src="dbScript.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
